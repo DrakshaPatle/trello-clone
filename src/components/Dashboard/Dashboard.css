@@ -1,0 +1,263 @@
+.app {
+    /* display: flex; */
+    flex-direction: column;
+    min-height: 90vh;
+  }
+  
+  .app.sidebar-open .content-wrapper {
+    margin-left: 270px;
+  }
+  
+  /* .app.sidebar-open .content-wrapper {
+    margin-left: 250px;
+  }
+  
+  .app.sidebar-open .content-wrapper {
+    margin-left: 250px;
+  } */
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .sidebar-toggle {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .content-wrapper {
+    /* display: flex; */
+    flex-grow: 1;
+    transition: margin-left 0.3s ease-in-out;
+    margin-left: 45px;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 0px;
+    margin-top: 60px;  
+    /* margin-left : 15px;
+    margin-right : 15px; */
+  }
+  
+  .user_image {
+    width: 60px;
+    height: 65px;
+  }
+  
+  .ellipsis_icon {
+    display: none;
+  }
+  
+  .headerellipsis_dropdown {
+    display: none;
+  }
+  
+  
+  
+  
+  /*.............................. Mobile Responsive.............................. */
+  @media (max-width: 767px) {
+    body{
+      overflow-y: hidden;
+    }
+    .main_header {
+      width: 375px;
+      z-index: 1;
+      overflow: hidden;
+    }
+    .taskdeployer_heading {
+      display: none;
+    }
+    .sidebar-toggle {
+      display: block;
+      position: relative;
+      font-size: 30px;
+    }
+  
+    .main_heading {
+      font-size: 15px;
+      margin-left: -15px;
+    }
+    .create_button {
+      font-size: 10px;
+      padding: 0;
+      width: 60px;
+      position: relative;
+      left: -40px;
+    }
+    .settingandicon_buttons {
+      position: absolute;
+      top: 10px;
+      right: 50px;
+    }
+  
+    .user_image {
+      width: 55px;
+      height: 57px;
+      position: relative;
+      top: -11px;
+      left: 4px;
+    }
+  
+    .user_detail {
+      position: absolute;
+      top: -20px;
+      right: 10px;
+    }
+  
+    .usernameand_background {
+      display: none;
+    }
+  
+    .setting_icon {
+      display: none;
+    }
+    .bell_icon {
+      font-size: 18px;
+      position: relative;
+      right: 3px;
+      top: -18px;
+    }
+  
+    .ellipsis_icon {
+      display: block;
+      position: relative;
+      right: 10px;
+      top: 7px;
+    }
+    .header_line {
+      display: none;
+    }
+    .headerellipsis_dropdown {
+      display: block;
+      position: relative;
+      top: 80px;
+    }
+  
+    .header_dropdown {
+      display: none;
+    }
+  
+    .app.sidebar-open .content-wrapper {
+      margin-left: 0px;
+    }
+  }
+  
+  
+  /*.............................. Ipad Responsive.............................. */
+  /* 
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .main_header {
+      z-index: 1;
+    }
+    .taskdeployer_heading {
+      display: none;
+    }
+    .sidebar-toggle {
+      display: block;
+      position: relative;
+      font-size: 30px;
+    }
+  
+    .main_heading {
+      font-size: 15px;
+      margin-left: -15px;
+    }
+    .create_button {
+      font-size: 10px;
+      padding: 0;
+      width: 60px;
+      position: relative;
+      left: -40px;
+    }
+    .settingandicon_buttons {
+      position: absolute;
+      top: 10px;
+      right: 70px;
+    }
+  
+    
+  .user_image {
+    width: 64px;
+    height: 67px;
+    position: relative;
+    top: -10px;
+  }
+  
+  
+  .user_detail {
+    position: absolute;
+    top: -26px;
+    right: 10px;
+  }
+  
+  .header_line {
+    display: none;
+  }
+  
+    .usernameand_background {
+      display: none;
+    }
+  
+    .setting_icon {
+      display: none;
+    }
+    .bell_icon {
+      font-size: 18px;
+      position: relative;
+      right: 3px;
+      top: -18px;
+    }
+  
+    .ellipsis_icon {
+      display: block;
+      position: relative;
+      right: 10px;
+      top: 7px;
+    }
+    
+    .headerellipsis_dropdown {
+      display: block;
+      position: relative;
+      top: 80px;
+    }
+  
+    
+    .app.sidebar-open .content-wrapper {
+      margin-left: 0px;
+    }
+  }
+   
+  
+  .taskdeployer_heading {
+    position: absolute;
+    left: 40px;
+    top: 15px;
+  } */
+  
+  .form-select-bg { 
+    background-color: #f8f9fa !important;
+  }
+  .form-select-bg:hover { 
+    background-color: #eeeeee !important;
+    border: none;
+  }
+
+  .scrollable-menu {
+    height: auto;
+    max-height: 400px;
+    overflow-x: hidden;
+}
+.scrollable-menu::-webkit-scrollbar { 
+  width: 4px;        
+  background-color: #eee;
+}  

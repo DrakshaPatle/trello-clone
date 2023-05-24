@@ -1,0 +1,13 @@
+.popup_card{
+    background-color: #ffffff;
+  
+}
+
+.logout{
+    color: rgb(116, 115, 115);
+}
+
+.logout:hover{
+color: black;
+
+}

@@ -1,0 +1,61 @@
+.icon-toggle-hide::after {
+    border-top: 0.3em transparent !important;
+}
+
+.create_button{
+    background:#dadada;
+    font-weight: 500;
+    border-radius: 5px;
+    
+    }
+    
+    .create_button:hover{
+        background-color: rgb(209, 208, 208);
+        border-radius: 5px;
+    }
+
+    .create_button_responsive{
+display: none;
+    }
+
+    
+.dropdown_toggle{
+    text-decoration: none;
+    color: black;
+    padding: 11px 5px;
+   }
+   
+   
+   .dropdown_toggle:hover{
+       text-decoration: none;
+       background-color: rgb(209, 208, 208);
+       padding: 11px 5px;
+       border-radius: 5px;
+   color: black;
+      }
+@media (max-width: 767px){
+    .create_button{
+        display: none;
+        
+        }
+        .create_button_responsive{
+            display:inline;
+            position: relative;
+            top: -20px;
+                }
+
+                .dropdown_toggle{
+                    text-decoration: none;
+                    color: black;
+                    padding: 11px 5px;
+                   }
+                   
+                   
+                   .dropdown_toggle:hover{
+                       text-decoration: none;
+                       background-color: rgb(209, 208, 208);
+                       padding: 11px 5px;
+                       border-radius: 5px;
+                   color: black;
+                      }
+}

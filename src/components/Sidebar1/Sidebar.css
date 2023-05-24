@@ -1,0 +1,276 @@
+.sidebar_heading {
+  display: none;
+}
+
+.sidebarheading_bottomline {
+  display: none;
+}
+
+.sidebar {
+  position: fixed;
+  top: 50px;
+  left: -250px;
+  width: 260px;
+  height: 100%;
+  background: #fafbfc;
+  transition: transform 0.3s ease-in-out;
+  z-index: 10;
+  border: 1px solid rgb(228, 234, 234);
+}
+
+.sidebar.open {
+  left: -252px;
+  transform: translateX(250px);
+}
+
+.sidebar.closed {
+  left: -243px;
+  transform: translateX(5px);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: none;
+}
+
+.home_link {
+  position: relative;
+  left: -3px;
+}
+
+
+.custom-accordion .accordion-item.active {
+  background-color: white !important;
+}
+
+.toggleOpen_Sidebar{
+  width: 23.5px;
+  height: 23.5px;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  border-radius: 5px;
+  align-items: center;
+  position: relative;
+}
+
+.toggleClose_Sidebar{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  padding: 15px;
+  margin-left: -8px;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* .toggleClose_Sidebar:hover{
+  background-color: rgba(126, 121, 121, 0.381);
+} */
+
+.toggleOpen_Sidebar:hover{
+  background-color: rgba(126, 121, 121, 0.381);
+}
+/*.............................. Mobile Responsive.............................. */
+
+@media (max-width: 767px) {
+  .sidebar_heading {
+    display: block;
+    font-size: 20px;
+    position: relative;
+    
+  }
+
+  .sidebarheading_bottomline {
+    display: block;
+    position: relative;
+    top: -8px;
+  }
+
+  .sidebar {
+    position: fixed;
+    left: 79px;
+    width:75%;
+    top: 50px;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+}
+  .sidebar.open {
+    transform: translateX(-79px);
+}
+  .sidebar.closed {
+    transform: translateX(-335px);
+  }
+  .toggleOpen_Sidebar{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    position: relative;
+  }
+  
+  .toggleClose_Sidebar{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    padding: 14px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+ 
+
+  
+}
+
+/*.............................. Ipad Responsive.............................. */
+/* 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+.sidebar_heading {
+    display: block;
+    font-size: 20px;
+    position: relative;
+    
+  }
+
+  .sidebarheading_bottomline {
+    display: block;
+    position: relative;
+    top: -18px;
+  }
+
+  .sidebar {
+    position: fixed;
+    left: 79px;
+    width:86%;
+    top: 10px;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+}
+  .sidebar.open {
+    transform: translateX(-126px);
+}
+  .sidebar.closed {
+    transform: translateX(-125%);
+  }
+ 
+
+  .sidebar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    font-size: 16px;
+    position: relative;
+    left: -50px;
+  }
+
+  .close-button{
+    display: none;
+ }
+  .home_link {
+    position: relative;
+    left: -48px;
+  }
+}
+
+
+
+
+
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: block;
+} */
+
+
+
+/* .side-bar{
+  background: #1b1a1b;
+  backdrop-filter: blur(15px);
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  overflow-y: auto;
+  transition: 0.6s ease;
+  transition-property: left;
+ }
+ .side-bar::-webkit-scrollbar {
+   width: 0px;
+ }
+ 
+ 
+ 
+ .side-bar.active{
+  left: 0;
+ }
+ 
+ .side-bar .menu{
+  width: 100%;
+  margin-top: 30px;
+ } */
+ 
+ /* .side-bar  */
+ .menu .item{
+  position: relative;
+  cursor: pointer;
+ }
+  .menu .item a{
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 5px 30px;
+  line-height: 60px;
+ }
+  .menu .item a:hover{
+  background: #33363a;
+  transition: 0.3s ease;
+ }
+   .menu .item i{
+  margin-right: 15px;
+ }
+   .menu .item a .dropdown{
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  transition: 0.3s ease;
+ }
+  .menu .item .sub-menu{
+  background: #262627;
+  display: none;
+ }
+  .menu .item .sub-menu a{
+  padding-left: 80px;
+ }
+ 
+
+ .accordion-button:focus {
+  z-index: 3;
+  border-color: none !important;
+  outline: 0;
+  box-shadow: none !important;
+}

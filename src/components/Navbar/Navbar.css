@@ -1,0 +1,63 @@
+.main_header{
+    box-shadow: 1px 1px #edebeb;
+    height: 52px;
+}
+
+.nav_heading{
+    position: relative;
+    left: -10px;
+}
+
+
+
+/*  
+   .user_detail:hover{
+    border-radius: 100%;
+    width: 40px;
+
+} */
+
+.taskdeployer_heading{
+    margin-left: 35px;
+    cursor: pointer;
+}
+.bell_icon{
+    cursor: pointer;
+}
+
+.mobileresponsive_Dropdown{
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .main_header{
+height: 50px;
+width: auto;
+
+    }
+
+    .Search_field{
+        display: none;
+    }
+
+   
+
+    .mobileresponsive_Dropdown{
+        display: inline-block;
+        position: absolute;
+        top: 30px;
+        
+    }
+    
+    .nav_heading{
+        font-size: 17px;
+        position: relative;
+        top: -20px;
+
+    }
+
+    .user_details{
+        position: relative;
+        top: -20px;
+    }
+}

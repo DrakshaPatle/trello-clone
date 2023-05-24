@@ -1,0 +1,99 @@
+.modal-header { 
+    border-bottom: 0px solid !important;
+ 
+}
+.popup-header-icon {
+    margin-right: 16px; 
+}
+.popup_list{
+    margin-left: 36px;
+    font-size: 0.885rem;
+}
+.popup_list a{
+    color: #5e6c84 !important;
+    text-decoration: underline !important;
+}
+.popup_list a:hover{
+    color: #5e6c84 !important;
+}
+.card-detail-data { 
+    margin-left: 40px;
+}
+.card-detail-item {
+    display: block;
+    float: left;
+    margin: 0 8px 8px 0;
+    max-width: 100%;
+}
+  .popup_circle {
+    width: 35px !important;
+    height: 35px !important;
+    line-height: 35px; 
+    border-radius: 50%;
+    font-size: 13px;
+    color: #fff; 
+    text-align: center;
+    background: #a3a3a3;
+    display: inline-block;
+  }
+  .pop_section {
+    background-color: #091e420a;
+    border: none;
+    font-size: 0.885rem; 
+    border-radius: 3px;
+    box-shadow: none;
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    padding: 6px 12px 6px 6px;
+    position: relative;
+    text-decoration: none;
+}
+/* .wrapper{
+    border: 1px solid grey;
+  }
+  .rdw-editor-wrapper {
+    box-sizing: border-box !important;
+}
+  .editor{
+    background-color: lavender;
+  } */
+  .rdw-editor-main {
+    height: auto !important;
+    overflow: hidden !important;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}  
+.button3 {
+	color: rgb(147, 144, 144); 
+    background-color: #091e420a;
+	border-radius: 5px;
+	transition: .2s ease-in-out;
+} 
+.btn__text {
+    color: #111111;
+    font-size: 0.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 15px;
+} 
+   
+  
+ 
+
+.wrapper-class {
+    padding: 1rem;
+    /* border: 1px solid #ccc; */
+  }
+  .editor-class {
+    background-color:#091e420a;
+    padding: 1rem;
+    /* border: 1px solid #ccc; */
+  }
+  .toolbar-class {
+    /* border: 1px solid #ccc; */
+  }  

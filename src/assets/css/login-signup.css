@@ -1,0 +1,107 @@
+.fill {
+  color: #0052cc;
+}
+/* p {
+  color: #b3b3b3;
+  font-weight: 300;
+} */
+
+a {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+.social-login a {
+  display: block;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #000000;
+  margin: 1em;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.social-icon {
+  height: 1.5em;
+  width: 1.5em;
+}
+.social-login a:hover {
+  color: #000000;
+}
+.social-login a.microsoft {
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.social-login a.microsoft:hover {
+  background: #dcd8d858;
+}
+.social-login a.apple {
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.social-login a.apple:hover {
+  background: #dcd8d858;
+}
+.social-login a.google {
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.social-login a.google:hover {
+  background: #dcd8d858;
+}
+.social-login a.slack {
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.social-login a.slack:hover {
+  background: #dcd8d858;
+}
+
+button[type="submit"] {
+  font-size: 0.9em;
+  color: #ffffff;
+  border-radius: 5px;
+  background: #0052cc;
+  outline: none;
+  border: 1px solid #0052cc;
+  cursor: pointer;
+  padding: 0.9em;
+  width: 100%;
+  /* margin: 0 2em; */
+}
+
+button[type="submit"]:hover {
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+  background: #0065ff;
+}
+
+.caption {
+  position: relative;
+  top: 0.2rem;
+  font-size: 12px;
+  /* margin: 0 20px; */
+  color: #888;
+}
+.curve-bg {
+  background-image: 
+  url(
+"../images/curve-bg.jpg");
+  background-size: "cover";
+  height: 100vh;
+  margin-top: -70px; 
+  background-repeat:no-repeat; 
+}

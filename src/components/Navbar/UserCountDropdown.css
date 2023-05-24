@@ -1,0 +1,13 @@
+.UserCountpopup{
+    cursor: pointer;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 4px;
+    text-align: center;
+    align-self: center;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
